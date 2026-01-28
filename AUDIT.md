@@ -4,10 +4,10 @@
    The stylesheet is linked using Style.CSS, which may not match the actual file name, and this is a problem because most web servers are case-sensitive and the CSS file will not load if the capitalization is incorrect; to resolve this, I will rename the file to style.css and update the link to match exactly.
 2. Space in the linked HTML file name
    The anchor tag links to a file named LOGIN Page.html, which contains a space, and this is problematic because spaces can cause broken links and are considered poor practice in web development; I will rename the file to login-page.html and update the link accordingly.
-   3.The “Get Started” button does not have a specified type or functionality, which is a problem because it does not perform any action and may confuse users; I will define its type or change it into a link that navigates to another page.
-3. Incorrect heading and content order
+3. The “Get Started” button does not have a specified type or functionality, which is a problem because it does not perform any action and may confuse users; I will define its type or change it into a link that navigates to another page.
+4. Incorrect heading and content order
    The paragraph appears before the “About Us” heading, which is incorrect because headings should introduce the content that follows and help with accessibility; I will move the heading above the paragraph it describes.
-4. The HTML document is missing the <!DOCTYPE html> declaration at the top, which is a problem because without it the browser may render the page in quirks mode, leading to inconsistent behavior and layout issues across different browsers; to fix this, I will add <!DOCTYPE html> as the first line of the document to ensure proper HTML5 rendering.
+5. The HTML document is missing the <!DOCTYPE html> declaration at the top, which is a problem because without it the browser may render the page in quirks mode, leading to inconsistent behavior and layout issues across different browsers; to fix this, I will add <!DOCTYPE html> as the first line of the document to ensure proper HTML5 rendering.
 
 ## CSS Issues
 
